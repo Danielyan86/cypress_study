@@ -1,0 +1,22 @@
+{
+  "name": "cypress_study",
+  "version": "1.0.0",
+  "description": "cypress study",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Danielyan86/cypress_study.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Danielyan86/cypress_study/issues"
+  },
+  "homepage": "https://github.com/Danielyan86/cypress_study#readme",
+  "devDependencies": {
+    "cypress": "^9.0.0"
+  }
+}
