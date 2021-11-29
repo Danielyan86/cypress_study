@@ -8,3 +8,6 @@
 
 # Open the cypress
 - ./node_modules/.bin/cypress open
+
+# run the test case
+- ./node_modules/.bin/cypress run 
