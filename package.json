@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Danielyan86/cypress_study#readme",
   "devDependencies": {
     "cypress": "^9.0.0",
+    "cypress-cucumber-preprocessor": "^4.3.0",
     "cypress-multi-reporters": "^1.5.0",
     "mocha-junit-reporter": "^2.0.2"
   },
