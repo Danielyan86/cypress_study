@@ -6,7 +6,9 @@
 // https://on.cypress.io/writing-first-test
 describe('My First Test', () => {
 	it('Does not do much!', () => {
-		expect(true).to.equal(false)
+		cy.task('hello', { greeting: 'Hello', name: 'World' })
+	
+		expect(true).to.equal(true)
 	})
 	it('Visits the Kitchen Sink', () => {
 		cy.visit('https://example.cypress.io')

@@ -17,6 +17,14 @@
  */
 // eslint-disable-next-line no-unused-vars
 module.exports = (on, config) => {
+  on('task', {
+    // deconstruct the individual properties
+    hello({ greeting, name }) {
+      console.log('%s, %s', greeting, name)
+
+      return null
+    },
+  })
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }
